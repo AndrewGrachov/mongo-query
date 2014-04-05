@@ -331,9 +331,6 @@ Wrap.prototype.update = function (query,modifier,options) {
 };
 
 Wrap.prototype.insert = function (doc) {
-	if (!doc._id || !doc._id instanceof ObjectID) {
-		doc._id = new bson.ObjectId();
-	}
 	this._data.push(doc);
 	return doc;
 };
