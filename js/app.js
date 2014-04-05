@@ -35,6 +35,7 @@ $(function() {
 			var queryResult;
 			try {
 				queryResult = eval("_(db[collection])."+command);
+				queryResult = queryResult || {};
 				$("#result").JSONView(JSON.stringify(queryResult));
 			}
 			catch(e) {
