@@ -13,3 +13,5 @@ using mongo-like query syntax,so..
 ```
 _(myCollection).update({id:1},{$set:{name:"Andrew"}})
 ```
+
+You can see a live demo [here](http://andrewgrachov.github.io/mongo-query/)
