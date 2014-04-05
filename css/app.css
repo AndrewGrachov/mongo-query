@@ -1,0 +1,41 @@
+.container {
+	width:900px;
+}
+
+header {
+	background: #34495e;
+	border-top: 3px solid #2b3c4e;
+	border-bottom: 3px solid #2b3c4e;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+header h1 {
+text-align: center;
+color: #fff;
+text-shadow: 2px 2px 0 #3d566e,9px 8px 0 rgba(0,0,0,.15);
+font-weight: 900;
+font-size: 50px;
+margin: 20px 0;
+}
+
+.logo img {
+	margin: 0 auto;
+	width:300px;
+	height:225px;
+	border-radius: 5px;
+	display: block;
+}
+
+.gray {
+	background-color: lightgray;
+}
+
+.black {
+	background-color:black;
+}
+
+.min400 {
+	min-height:400px;
+	color:green;
+}

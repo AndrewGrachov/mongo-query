@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/app.css"/>
+		<link rel="stylesheet" href="bower_components/jqtree/jqtree.css"/>
+		<link rel="stylesheet" href="css/jquery.jsonview.css"/>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+
+		<script src="js/jquery.jsonview.js"></script>
+		<script src="js/utility/util.js"></script>
+
+		<script src="js/app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="logo">
+						<img src="http://content.sportslogos.net/logos/33/797/full/2567.png" />
+					</div>
+					<div class="hidden-xs">
+						<h1>Hello World!</h1>
+					</div>
+					<form id="submit-search-form">
+						<input class="form-control" id="command-form" placeholder="Type command here"/>
+						<button type="submit" class="btn btn-success" style="display:none">Run</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 gray">
+						<div id="json-tree">
+
+						</div>
+					</div>
+					<div class="col-xs-6 black min400" id="result"></div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
