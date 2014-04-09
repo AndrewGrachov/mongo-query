@@ -28,8 +28,11 @@ $(function() {
 		}
 		else {
 			$("#result").html('');
-			var collection = searchValue.split('.')[1];
-			var command = searchValue.split('.')[2];
+			var splitted = searchValue.split('.')
+			var collection = splitted[1];
+			splitted.shift();
+			splitted.shift();
+			var command = splitted.join(".");
 			result = _(db[collection]);
 
 			var queryResult;
