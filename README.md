@@ -13,7 +13,10 @@ bower install mongo-query
 ```
 
 **Usage**
-Supports most of mongodb native query operators.
+
+supports most of mongodb native query operators.
+
+http://docs.mongodb.org/manual/reference/operator/query/
 
 wrap your collection in
 ```
