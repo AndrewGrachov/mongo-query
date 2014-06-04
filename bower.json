@@ -1,0 +1,26 @@
+{
+  "name": "mongo-query",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Grachov <DrontXL@yandex.ru>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewGrachov/mongo-query.git"
+  },
+  "description": "mongo query compatible collection utility",
+  "keywords": [
+    "mongo",
+    "query",
+    "collection",
+    "utility"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

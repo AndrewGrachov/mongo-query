@@ -6,12 +6,26 @@ mongo-db compatible query engine to work with POJO collections. A part of [mongo
 
 Work with collections like you're doing on mongodb, everywhere - client, backend, anything;
 
-**Usage**
+**Install**
 
-a wrapper use '_' prefix like taht lodash and undescore.js do. You dont actually need them if you are 
-using mongo-like query syntax,so..
 ```
-_(myCollection).update({id:1},{$set:{name:"Andrew"}})
+bower install mongo-query
+```
+
+**Usage**
+Supports most of mongodb native query operators.
+
+wrap your collection in
+```
+var collection = _q([]) // returns you a wrapped object;
+collection.find({...})
+//etc
+```
+
+
+```
+
+_q(myCollection).update({id:1},{$set:{name:"Andrew"}})
 ```
 
 You can see a live demo [here](http://andrewgrachov.github.io/mongo-query/)

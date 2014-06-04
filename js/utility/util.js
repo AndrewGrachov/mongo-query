@@ -553,6 +553,6 @@ Wrap.prototype.findAndModify = function (query, modifier, options) {
 	return doc;
 };
 
-_ = Constructor;
+_q = Constructor;
 
 })();
